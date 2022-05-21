@@ -12,3 +12,9 @@ Reminder: Add more to readme
 https://github.com/Enhanced-Source-Project/Enhanced-Source
 
 https://github.com/RubberWar/Portal-2
+
+# Binaries
+
+https://github.com/WindowsShadows/Portal2ASW-Binaries
+
+Keep in mind that these have NOT yet released.
