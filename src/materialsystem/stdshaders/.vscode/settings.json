@@ -1,6 +1,0 @@
-{
-    "files.associations": {
-        "*_fxc.h": "hlsl",
-        "*.fxc": "hlsl"
-    }
-}

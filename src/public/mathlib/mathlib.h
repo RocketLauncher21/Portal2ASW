@@ -1,4 +1,4 @@
-//===== Copyright © 1996-2005, Valve Corporation, All rights reserved. ======//
+//===== Copyright ï¿½ 1996-2005, Valve Corporation, All rights reserved. ======//
 //
 // Purpose: 
 //
@@ -255,7 +255,7 @@ inline void VectorNegate(vec_t *a)
 }
 
 
-//#define VectorMaximum(a)		( max( (a)[0], max( (a)[1], (a)[2] ) ) )
+//#define VectorMaximum(a)		( MAX( (a)[0], MAX( (a)[1], (a)[2] ) ) )
 #define Vector2Clear(x)			{(x)[0]=(x)[1]=0;}
 #define Vector2Negate(x)		{(x)[0]=-((x)[0]);(x)[1]=-((x)[1]);}
 #define Vector2Copy(a,b)		{(b)[0]=(a)[0];(b)[1]=(a)[1];}
@@ -2202,7 +2202,7 @@ inline bool CloseEnough( const Vector &a, const Vector &b, float epsilon = EQUAL
 // Fast compare
 // maxUlps is the maximum error in terms of Units in the Last Place. This 
 // specifies how big an error we are willing to accept in terms of the value
-// of the least significant digit of the floating point number’s 
+// of the least significant digit of the floating point numberï¿½s 
 // representation. maxUlps can also be interpreted in terms of how many 
 // representable floats we are willing to accept between A and B. 
 // This function will allow maxUlps-1 floats between A and B.
