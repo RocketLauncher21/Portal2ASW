@@ -4,4 +4,3 @@ devtools\bin\vpc.exe /portal_template +game /mksln Game_Portal_Template-2010.sln
 devtools\bin\vpc.exe /hl2_template +game /mksln Game_HL2_Template-2010.sln /2010
 devtools\bin\vpc.exe /vectronic +game /mksln Game_Vectronic-2010.sln /2010
 devtools\bin\vpc.exe /swarm +game /mksln Game_Swarm-2010.sln /2010
-devtools\bin\vpc.exe /portal2 +game /mksln Game_Portal2-2010.sln /2010

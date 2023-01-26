@@ -14,8 +14,6 @@
 #include "ConVar.h"
 #include "tier0/icommandline.h"
 
-#ifndef PORTAL_ONLY
-
 #ifdef HDR
 #include "vertexlit_and_unlit_generic_hdr_ps20.inc"
 #include "vertexlit_and_unlit_generic_hdr_ps20b.inc"
@@ -30,8 +28,6 @@
 #include "flashlight_ps20.inc"
 #include "flashlight_ps20b.inc"
 #include "vertexlitgeneric_flashlight_vs20.inc"
-
-#endif
 
 // memdbgon must be the last include file in a .cpp file!!!
 #include "tier0/memdbgon.h"
@@ -751,7 +747,7 @@ void CBaseVSShader::SetFlashlightVertexShaderConstants( bool bBump, int bumpTran
 	}
 }
 
-#ifndef PORTAL_ONLY
+
 void CBaseVSShader::DrawFlashlight_dx90( IMaterialVar** params, IShaderDynamicAPI *pShaderAPI, 
 										IShaderShadow* pShaderShadow, DrawFlashlight_dx90_Vars_t &vars )
 {
@@ -1118,8 +1114,6 @@ void CBaseVSShader::DrawFlashlight_dx90( IMaterialVar** params, IShaderDynamicAP
 	}
 	Draw();
 }
-
-#endif
 
 // Take 0..1 seed and map to (u, v) coordinate to be used in shadow filter jittering...
 void CBaseVSShader::HashShadow2DJitter( const float fJitterSeed, float *fU, float* fV )
