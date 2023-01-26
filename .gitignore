@@ -62,4 +62,4 @@ game/*/maps/graphs
 game/*/maps/soundcache
 game/*/SAVE
 game/*/modelsounds.cache
-server
+vs_src
